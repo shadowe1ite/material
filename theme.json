@@ -1,0 +1,13 @@
+{
+  "id": "material",
+  "author": "shadowe1ite",
+  "name": "material",
+  "description": "Material colors for Zen Browser ",
+  "version": "1.0",
+  "style": {
+    "chrome": "userChrome.css",
+    "content": "userContent"
+  },
+  "tags": ["content", "material", "minimal"],
+  "fork": ["zen"]
+}
