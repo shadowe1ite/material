@@ -5,8 +5,8 @@
   "description": "Material colors for Zen Browser ",
   "version": "1.0",
   "style": {
-    "chrome": "userChrome.css",
-    "content": "userContent"
+    "chrome": "https://raw.githubusercontent.com/shadowe1ite/material/refs/heads/main/userChrome.css",
+    "content": "https://raw.githubusercontent.com/shadowe1ite/material/refs/heads/main/userContent.css"
   },
   "tags": ["content", "material", "minimal"],
   "fork": ["zen"]
