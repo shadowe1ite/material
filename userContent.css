@@ -4,7 +4,7 @@
   @-moz-document url-prefix("about:") {
     :root {
       --in-content-page-color: #e2e2e2 !important;
-      --color-accent-primary: #c1c1ff !important;
+      --color-accent-primary: #c2c1ff !important;
       --color-accent-primary-hover: #c6c4dd !important;
       --color-accent-primary-active: #c6c4dd !important;
       background-color: #131313 !important;
@@ -22,7 +22,7 @@
       --newtab-element-hover-color: #2a2a2a !important;
       --newtab-text-primary-color: #e2e2e2 !important;
       --newtab-wordmark-color: #e2e2e2 !important;
-      --newtab-primary-action-background: #c1c1ff !important;
+      --newtab-primary-action-background: #c2c1ff !important;
     }
 
     /* Attempt to hide the customize button */
@@ -31,7 +31,7 @@
     }
 
     .icon {
-      color: #c1c1ff !important;
+      color: #c2c1ff !important;
     }
 
     .search-wrapper .logo-and-wordmark .logo {
@@ -51,11 +51,11 @@
     }
 
     .card-outer:is(:hover, :focus, .active):not(.placeholder) .card-title {
-      color: #c1c1ff !important;
+      color: #c2c1ff !important;
     }
 
     .top-site-outer .search-topsite {
-      background-color: #c1c1ff !important;
+      background-color: #c2c1ff !important;
     }
 
     .compact-cards .card-outer .card-context .card-context-icon.icon-download {
@@ -68,11 +68,11 @@
     :root {
       --zen-colors-tertiary: #131313 !important;
       --in-content-text-color: #e2e2e2 !important;
-      --link-color: #c1c1ff !important;
+      --link-color: #c2c1ff !important;
       --link-color-hover: #c6c4dd !important;
       --zen-colors-primary: #2a2a2a !important;
       --in-content-box-background: #2a2a2a !important;
-      --zen-primary-color: #c1c1ff !important;
+      --zen-primary-color: #c2c1ff !important;
     }
 
     groupbox , moz-card{
