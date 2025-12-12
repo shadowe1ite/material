@@ -4,14 +4,14 @@
 
   :root {
     --zen-colors-primary: #2a2a2a !important;
-    --zen-primary-color: #ffb3ae !important;
+    --zen-primary-color: #ffacea !important;
     --zen-colors-secondary: #2a2a2a !important;
     --zen-colors-tertiary: #393939 !important;
-    --zen-colors-border: #ffb3ae !important;
-    --toolbarbutton-icon-fill: #ffb3ae !important;
+    --zen-colors-border: #ffacea !important;
+    --toolbarbutton-icon-fill: #ffacea !important;
     --lwt-text-color: #e2e2e2 !important;
     --toolbar-field-color: #e2e2e2 !important;
-    --tab-selected-textcolor: #ffb3ae !important;
+    --tab-selected-textcolor: #ffacea !important;
     --toolbar-field-focus-color: #e2e2e2 !important;
     --toolbar-color: #e2e2e2 !important;
     --newtab-text-primary-color: #e2e2e2 !important;
@@ -49,11 +49,11 @@
 
   .content-shortcuts {
     background-color: #2a2a2a !important;
-    border-color: #ffb3ae !important;
+    border-color: #ffacea !important;
   }
 
   .urlbarView-url {
-    color: #ffb3ae !important;
+    color: #ffacea !important;
   }
 
   #zenEditBookmarkPanelFaviconContainer {
