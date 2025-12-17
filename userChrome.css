@@ -4,21 +4,21 @@
 
   :root {
     --zen-colors-primary: #2a292f !important;
-    --zen-primary-color: #c1c1ff !important;
+    --zen-primary-color: #c2c1ff !important;
     --zen-colors-secondary: #2a292f !important;
     --zen-colors-tertiary: #39383f !important;
-    --zen-colors-border: #c1c1ff !important;
-    --toolbarbutton-icon-fill: #c1c1ff !important;
-    --lwt-text-color: #e4e1e9 !important;
-    --toolbar-field-color: #e4e1e9 !important;
-    --tab-selected-textcolor: #c1c1ff !important;
-    --toolbar-field-focus-color: #e4e1e9 !important;
-    --toolbar-color: #e4e1e9 !important;
-    --newtab-text-primary-color: #e4e1e9 !important;
-    --arrowpanel-color: #e4e1e9 !important;
+    --zen-colors-border: #c2c1ff !important;
+    --toolbarbutton-icon-fill: #c2c1ff !important;
+    --lwt-text-color: #e5e1e9 !important;
+    --toolbar-field-color: #e5e1e9 !important;
+    --tab-selected-textcolor: #c2c1ff !important;
+    --toolbar-field-focus-color: #e5e1e9 !important;
+    --toolbar-color: #e5e1e9 !important;
+    --newtab-text-primary-color: #e5e1e9 !important;
+    --arrowpanel-color: #e5e1e9 !important;
     --arrowpanel-background: #131318 !important;
-    --sidebar-text-color: #e4e1e9 !important;
-    --lwt-sidebar-text-color: #e4e1e9 !important;
+    --sidebar-text-color: #e5e1e9 !important;
+    --lwt-sidebar-text-color: #e5e1e9 !important;
     --lwt-sidebar-background-color: #131318 !important;
     --toolbar-bgcolor: #2a292f !important;
     --newtab-background-color: #131318 !important;
@@ -49,11 +49,11 @@
 
   .content-shortcuts {
     background-color: #2a292f !important;
-    border-color: #c1c1ff !important;
+    border-color: #c2c1ff !important;
   }
 
   .urlbarView-url {
-    color: #c1c1ff !important;
+    color: #c2c1ff !important;
   }
 
   #zenEditBookmarkPanelFaviconContainer {
