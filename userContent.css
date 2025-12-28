@@ -3,12 +3,12 @@
   /* Common variables affecting all pages */
   @-moz-document url-prefix("about:") {
     :root {
-      --in-content-page-color: #f1dfdb !important;
-      --color-accent-primary: #ffb4a7 !important;
-      --color-accent-primary-hover: #e7bdb6 !important;
-      --color-accent-primary-active: #e7bdb6 !important;
-      background-color: #1a1110 !important;
-      --in-content-page-background: #1a1110 !important;
+      --in-content-page-color: #f0dede !important;
+      --color-accent-primary: #ffb3b2 !important;
+      --color-accent-primary-hover: #e6bdbc !important;
+      --color-accent-primary-active: #e6bdbc !important;
+      background-color: #1a1111 !important;
+      --in-content-page-background: #1a1111 !important;
     }
 
   }
@@ -17,12 +17,12 @@
   @-moz-document url("about:newtab"), url("about:home") {
 
     :root {
-      --newtab-background-color: #1a1110 !important;
-      --newtab-background-color-secondary: #322826 !important;
-      --newtab-element-hover-color: #322826 !important;
-      --newtab-text-primary-color: #f1dfdb !important;
-      --newtab-wordmark-color: #f1dfdb !important;
-      --newtab-primary-action-background: #ffb4a7 !important;
+      --newtab-background-color: #1a1111 !important;
+      --newtab-background-color-secondary: #322827 !important;
+      --newtab-element-hover-color: #322827 !important;
+      --newtab-text-primary-color: #f0dede !important;
+      --newtab-wordmark-color: #f0dede !important;
+      --newtab-primary-action-background: #ffb3b2 !important;
     }
 
     /* Attempt to hide the customize button */
@@ -31,7 +31,7 @@
     }
 
     .icon {
-      color: #ffb4a7 !important;
+      color: #ffb3b2 !important;
     }
 
     .search-wrapper .logo-and-wordmark .logo {
@@ -51,11 +51,11 @@
     }
 
     .card-outer:is(:hover, :focus, .active):not(.placeholder) .card-title {
-      color: #ffb4a7 !important;
+      color: #ffb3b2 !important;
     }
 
     .top-site-outer .search-topsite {
-      background-color: #ffb4a7 !important;
+      background-color: #ffb3b2 !important;
     }
 
     .compact-cards .card-outer .card-context .card-context-icon.icon-download {
@@ -66,27 +66,27 @@
   /* Variables and styles specific to about:preferences */
   @-moz-document url-prefix("about:preferences") {
     :root {
-      --zen-colors-tertiary: #1a1110 !important;
-      --in-content-text-color: #f1dfdb !important;
-      --link-color: #ffb4a7 !important;
-      --link-color-hover: #e7bdb6 !important;
-      --zen-colors-primary: #322826 !important;
-      --in-content-box-background: #322826 !important;
-      --zen-primary-color: #ffb4a7 !important;
+      --zen-colors-tertiary: #1a1111 !important;
+      --in-content-text-color: #f0dede !important;
+      --link-color: #ffb3b2 !important;
+      --link-color-hover: #e6bdbc !important;
+      --zen-colors-primary: #322827 !important;
+      --in-content-box-background: #322827 !important;
+      --zen-primary-color: #ffb3b2 !important;
     }
 
     groupbox , moz-card{
-      background: #1a1110 !important;
+      background: #1a1111 !important;
     }
 
     button,
     groupbox menulist {
-      background: #322826 !important;
-      color: #f1dfdb !important;
+      background: #322827 !important;
+      color: #f0dede !important;
     }
 
     .main-content {
-      background-color: #1a1110 !important;
+      background-color: #1a1111 !important;
     }
   .identity-color-blue {
     --identity-tab-color: #89b4fa !important;
@@ -125,29 +125,29 @@
   /* Variables and styles specific to about:addons */
   @-moz-document url-prefix("about:addons") {
     :root {
-      --zen-dark-color-mix-base: #271d1c !important;
-      --background-color-box: #1a1110 !important;
+      --zen-dark-color-mix-base: #271d1d !important;
+      --background-color-box: #1a1111 !important;
     }
   }
 
   /* Variables and styles specific to about:protections */
   @-moz-document url-prefix("about:protections") {
     :root {
-      --zen-primary-color: #1a1110 !important;
+      --zen-primary-color: #1a1111 !important;
       --social-color: #ba68c8 !important;
       --coockie-color: #2190a4 !important;
       --fingerprinter-color: #ffb74d !important;
       --cryptominer-color: #64b5f6 !important;
       --tracker-color: #81c784 !important;
-      --in-content-primary-button-background-hover: #3d3230 !important;
-      --in-content-primary-button-text-color-hover: #f1dfdb !important;
-      --in-content-primary-button-background: #3d3230 !important;
-      --in-content-primary-button-text-color: #f1dfdb !important;
+      --in-content-primary-button-background-hover: #3d3232 !important;
+      --in-content-primary-button-text-color-hover: #f0dede !important;
+      --in-content-primary-button-background: #3d3232 !important;
+      --in-content-primary-button-text-color: #f0dede !important;
     }
 
 
     .card {
-      background-color: #322826 !important;
+      background-color: #322827 !important;
     }
   }
 }
