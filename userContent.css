@@ -4,9 +4,9 @@
   @-moz-document url-prefix("about:") {
     :root {
       --in-content-page-color: #dee3e6 !important;
-      --color-accent-primary: #87d1ea !important;
-      --color-accent-primary-hover: #b3cad4 !important;
-      --color-accent-primary-active: #b3cad4 !important;
+      --color-accent-primary: #86d1e9 !important;
+      --color-accent-primary-hover: #b2cad3 !important;
+      --color-accent-primary-active: #b2cad3 !important;
       background-color: #0f1416 !important;
       --in-content-page-background: #0f1416 !important;
     }
@@ -22,7 +22,7 @@
       --newtab-element-hover-color: #252b2d !important;
       --newtab-text-primary-color: #dee3e6 !important;
       --newtab-wordmark-color: #dee3e6 !important;
-      --newtab-primary-action-background: #87d1ea !important;
+      --newtab-primary-action-background: #86d1e9 !important;
     }
 
     /* Attempt to hide the customize button */
@@ -31,7 +31,7 @@
     }
 
     .icon {
-      color: #87d1ea !important;
+      color: #86d1e9 !important;
     }
 
     .search-wrapper .logo-and-wordmark .logo {
@@ -51,11 +51,11 @@
     }
 
     .card-outer:is(:hover, :focus, .active):not(.placeholder) .card-title {
-      color: #87d1ea !important;
+      color: #86d1e9 !important;
     }
 
     .top-site-outer .search-topsite {
-      background-color: #87d1ea !important;
+      background-color: #86d1e9 !important;
     }
 
     .compact-cards .card-outer .card-context .card-context-icon.icon-download {
@@ -68,11 +68,11 @@
     :root {
       --zen-colors-tertiary: #0f1416 !important;
       --in-content-text-color: #dee3e6 !important;
-      --link-color: #87d1ea !important;
-      --link-color-hover: #b3cad4 !important;
+      --link-color: #86d1e9 !important;
+      --link-color-hover: #b2cad3 !important;
       --zen-colors-primary: #252b2d !important;
       --in-content-box-background: #252b2d !important;
-      --zen-primary-color: #87d1ea !important;
+      --zen-primary-color: #86d1e9 !important;
     }
 
     groupbox , moz-card{
@@ -125,7 +125,7 @@
   /* Variables and styles specific to about:addons */
   @-moz-document url-prefix("about:addons") {
     :root {
-      --zen-dark-color-mix-base: #1b2023 !important;
+      --zen-dark-color-mix-base: #1b2022 !important;
       --background-color-box: #0f1416 !important;
     }
   }
